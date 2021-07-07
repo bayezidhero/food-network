@@ -1,0 +1,169 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+/* Top Part */
+h1 {
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 130%;
+    letter-spacing: -0.02em;
+    padding-top: 50px;
+    margin-bottom: 0px;
+    margin-top: 92px;
+}
+.orange-text{
+    color: orange;
+}
+p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #828282;
+    letter-spacing: -0.02em;
+    padding-bottom: 49px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(to right, #FBA24F, #FF1E1E);
+    padding: 24px 32px;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 18px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 7%;
+}
+.top-part {
+    display: flex;
+    margin-bottom: 50px;
+}
+.half-width img{
+    width: 100%;
+}
+
+/* About */
+
+.about{
+    display: flex;
+    background-image: url('images/shapes/7.png');
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+}
+.about-left{
+    width: 50%;
+    padding-left: 150px;
+}
+.about-right {
+    width: 50%;
+    padding-right: 150px;
+    padding-left: 30px;
+    padding-top: 63px;
+}
+.about-left img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    padding-top: 35px;
+}
+h2 {
+    margin-top: 100px;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 54px;
+    color: #707070;
+}
+/* food item */
+section.recipies {
+    padding: 0px 5%;
+    margin-bottom: 50px;
+}
+.recipies-top {
+    text-align: center;
+    padding: 0px 221px;
+}
+.recipies-item{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 20px;
+}
+.single-item {
+    width: 29.33%;
+    margin-left: 2%;
+    margin-right: 2%;
+    box-shadow: 10px 10px 27px grey;
+    border-radius: 15px;
+    padding: 20px 10px 0 10px;
+}
+.single-item img {
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.single-item-text{
+    padding: 0 20px;
+}
+/* Contest Section */
+.recipies-contest{
+    display: flex;
+    background-image: url('images/shapes/7.png');
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+}
+.recipies-contest-title{
+    font-size: 50px;
+    font-weight: 900;
+}
+.half-width.contest-image {
+    padding: 0;
+    margin: 150px 100px 0 0;
+    padding-top: 50px;
+}
+/* Contest Winner Section */
+.contest-winner{
+    display: flex;
+    margin-bottom: 50px;
+}
+.winner-image {
+    width: 50%;
+    padding-left: 100px;
+    padding-top: 72px;
+}
+.about-winner {
+    width: 50%;
+    padding-right: 150px;
+    padding-left: 30px;
+}
+.winner-image img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    padding-top: 35px;
+}
+/* Footer Part */
+.footer{
+    background-color: black;
+}
+.gray{
+    color: #5B5B5B;
+}
+.footer-logo {
+    font-size: 30px;
+    color: #ee7238;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 58px;
+    line-height: 1px;
+}
+.footer-address{
+    font-size: 10px;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
+}
